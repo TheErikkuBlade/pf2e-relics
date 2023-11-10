@@ -1,0 +1,40 @@
+{
+  "id": "pf2e-relics",
+  "title": "PF2e Relics",
+  "version": "0.9.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "A simple compendium pack with all of the current Relic Gifts that exist in the PF2e game system. This includes some gifts already included in the base system, but are improved upon (in terms of automation) and organized cleanly in folders.",
+  "authors": [
+    {
+      "name": "TheErikkuBlade",
+      "discord": "erikkublade"
+    }
+  ],
+  "packs": [
+    {
+      "name": "relic-gifts",
+      "label": "Relic Gifts",
+      "path": "packs/relic-gifts",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "relic-effects",
+      "label": "Relic Effects",
+      "path": "packs/relic-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
