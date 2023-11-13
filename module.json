@@ -1,10 +1,10 @@
 {
   "id": "pf2e-relics",
   "title": "PF2e Relics",
-  "url": "https://github.com/TheErikkuBlade/pf2e-relics/tree/0.9.0",
-  "manifest": "https://github.com/TheErikkuBlade/pf2e-relics/releases/latest/download/module.json",
-  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/0.9.0/pf2e-relics.zip",
-  "version": "0.9.0",
+  "version": "0.9.1",
+  "url": "https://github.com/TheErikkuBlade/pf2e-relics/",
+  "manifest": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/latest/module.json",
+  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/0.9.1/pf2e-relics.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -38,6 +38,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "relic-macros",
+      "label": "Relic Macros",
+      "path": "packs/relic-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     }
   ]
 }
