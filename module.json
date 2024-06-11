@@ -1,19 +1,21 @@
 {
   "id": "pf2e-relics",
   "title": "PF2e Relics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "url": "https://github.com/TheErikkuBlade/pf2e-relics/",
   "manifest": "https://github.com/TheErikkuBlade/pf2e-relics/releases/latest/download/module.json",
-  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/1.0.0/pf2e-relics.zip",
+  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/1.0.1/pf2e-relics.zip",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "11",
+    "maximum": "12"
   },
   "description": "A simple compendium pack with all of the current Relic Gifts that exist in the PF2e game system. This includes some gifts already included in the base system, but are improved upon (in terms of automation) and organized cleanly in folders.",
   "authors": [
     {
       "name": "TheErikkuBlade",
-      "discord": "erikkublade"
+      "discord": "erikkublade",
+      "url": "https://github.com/TheErikkuBlade/pf2e-relics"
     }
   ],
   "packFolders": [
@@ -69,35 +71,37 @@
       "label": "Relic Journal Entries",
       "path": "packs/relic-journals",
       "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "relic-examples",
       "label": "Relic Examples",
       "path": "packs/relic-examples",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "relationships": {
     "systems": [
       {
         "id": "pf2e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ],
     "recommends": [
       {
         "id": "pf2e-macro-helper-library",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   }
