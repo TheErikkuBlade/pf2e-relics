@@ -1,14 +1,13 @@
 {
   "id": "pf2e-relics",
   "title": "PF2e Relics",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "url": "https://github.com/TheErikkuBlade/pf2e-relics/",
   "manifest": "https://github.com/TheErikkuBlade/pf2e-relics/releases/latest/download/module.json",
-  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/1.1.0/pf2e-relics.zip",
+  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/1.2.0/pf2e-relics.zip",
   "compatibility": {
     "minimum": "11",
-    "verified": "12",
-    "maximum": "12"
+    "verified": "12"
   },
   "description": "A simple compendium pack with all of the current Relic Gifts that exist in the PF2e game system. This includes some gifts already included in the base system, but are improved upon (in terms of automation) and organized cleanly in folders.",
   "authors": [
