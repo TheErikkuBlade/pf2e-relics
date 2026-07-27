@@ -1,3 +1,23 @@
-2025/07/20-01:37:08.421271 e6de96faefe0 Recovering log #2576
-2025/07/20-01:37:08.429273 e6de96faefe0 Delete type=3 #2574
-2025/07/20-01:37:08.429302 e6de96faefe0 Delete type=0 #2576
+2026/07/27-21:57:47.626023 e641bf7eef40 Recovering log #4066
+2026/07/27-21:57:47.626056 e641bf7eef40 Level-0 table #4068: started
+2026/07/27-21:57:47.628549 e641bf7eef40 Level-0 table #4068: 2839 bytes OK
+2026/07/27-21:57:47.634191 e641bf7eef40 Delete type=3 #4065
+2026/07/27-21:57:47.634214 e641bf7eef40 Delete type=0 #4066
+2026/07/27-21:59:29.942445 e63fa963ef40 Level-0 table #4071: started
+2026/07/27-21:59:29.942462 e63fa963ef40 Level-0 table #4071: 0 bytes OK
+2026/07/27-21:59:29.944755 e63fa963ef40 Delete type=0 #4069
+2026/07/27-21:59:29.949299 e63fa963ef40 Manual compaction at level-0 from '!items!EBbQfF2yBLcBHPyJ' @ 72057594037927935 : 1 .. '!items!vHZSx5f093Wrivzn' @ 0 : 0; will stop at '!items!vHZSx5f093Wrivzn' @ 169 : 1
+2026/07/27-21:59:29.949304 e63fa963ef40 Compacting 1@0 + 0@1 files
+2026/07/27-21:59:29.953087 e63fa963ef40 Generated table #4072@0: 1 keys, 2638 bytes
+2026/07/27-21:59:29.953097 e63fa963ef40 Compacted 1@0 + 0@1 files => 2638 bytes
+2026/07/27-21:59:29.955202 e63fa963ef40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/27-21:59:29.955254 e63fa963ef40 Delete type=2 #4068
+2026/07/27-21:59:29.957760 e63fa963ef40 Manual compaction at level-0 from '!items!vHZSx5f093Wrivzn' @ 169 : 1 .. '!items!vHZSx5f093Wrivzn' @ 0 : 0; will stop at (end)
+2026/07/27-21:59:29.960641 e63fa963ef40 Manual compaction at level-1 from '!items!EBbQfF2yBLcBHPyJ' @ 72057594037927935 : 1 .. '!items!vHZSx5f093Wrivzn' @ 0 : 0; will stop at '!items!vHZSx5f093Wrivzn' @ 170 : 1
+2026/07/27-21:59:29.960647 e63fa963ef40 Compacting 1@1 + 1@2 files
+2026/07/27-21:59:29.963331 e63fa963ef40 Generated table #4073@1: 4 keys, 8620 bytes
+2026/07/27-21:59:29.963341 e63fa963ef40 Compacted 1@1 + 1@2 files => 8620 bytes
+2026/07/27-21:59:29.965330 e63fa963ef40 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/27-21:59:29.965384 e63fa963ef40 Delete type=2 #4072
+2026/07/27-21:59:29.965431 e63fa963ef40 Delete type=2 #4040
+2026/07/27-21:59:29.967987 e63fa963ef40 Manual compaction at level-1 from '!items!vHZSx5f093Wrivzn' @ 170 : 1 .. '!items!vHZSx5f093Wrivzn' @ 0 : 0; will stop at (end)

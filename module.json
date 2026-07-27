@@ -1,15 +1,16 @@
 {
   "id": "pf2e-relics",
   "title": "PF2e Relics",
-  "version": "1.3.0",
+  "version": "1.5.0",
   "url": "https://github.com/TheErikkuBlade/pf2e-relics/",
   "manifest": "https://github.com/TheErikkuBlade/pf2e-relics/releases/latest/download/module.json",
-  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/1.3.0/pf2e-relics.zip",
+  "download": "https://github.com/TheErikkuBlade/pf2e-relics/releases/download/1.5.0/pf2e-relics.zip",
   "compatibility": {
-    "minimum": "11",
-    "verified": "13"
+    "minimum": "13",
+    "verified": "14"
   },
-  "description": "A simple compendium pack with all of the current Relic Gifts that exist in the PF2e game system. This includes some gifts already included in the base system, but are improved upon (in terms of automation) and organized cleanly in folders.",
+  "styles": [{ "src": "styles/main.css" }],
+  "description": "<p>A simple compendium pack with all of the current Relic Gifts that exist in the PF2e game system. This includes some gifts already included in the base system, but are improved upon (in terms of automation) and organized cleanly in folders.</p>",
   "authors": [
     {
       "name": "TheErikkuBlade",
@@ -27,7 +28,12 @@
         "relic-effects",
         "relic-macros",
         "relic-examples",
-        "relic-journals"
+        "relic-journals",
+        "sf-relic-gifts",
+        "sf-relic-effects",
+        "sf-relic-macros",
+        "sf-relic-examples",
+        "sf-relic-journals"
       ],
       "folders": [],
       "color": null
@@ -93,6 +99,66 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "sf-relic-gifts",
+      "label": "Relic Gifts",
+      "path": "packs/sf-relic-gifts",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sf-relic-effects",
+      "label": "Relic Effects",
+      "path": "packs/sf-relic-effects",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sf-relic-macros",
+      "label": "Relic Macros",
+      "path": "packs/sf-relic-macros",
+      "type": "Macro",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sf-relic-journals",
+      "label": "Relic Journal Entries",
+      "path": "packs/sf-relic-journals",
+      "type": "JournalEntry",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sf-relic-examples",
+      "label": "Relic Examples",
+      "path": "packs/sf-relic-examples",
+      "type": "Item",
+      "system": "sf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "relationships": {
@@ -101,14 +167,13 @@
         "id": "pf2e",
         "type": "system",
         "compatibility": {}
-      }
-    ],
-    "recommends": [
+      },
       {
-        "id": "pf2e-macro-helper-library",
-        "type": "module",
+        "id": "sf2e",
+        "type": "system",
         "compatibility": {}
       }
     ]
-  }
+  },
+  "flags": {}
 }

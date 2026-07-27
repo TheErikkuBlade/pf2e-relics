@@ -1,0 +1,20 @@
+dialog#lashing-currents-picker-dialog.lashing-currents-dialog {
+  img {
+    max-width: 2.5rem;
+    aspect-ratio: 1;
+  }
+
+  footer.form-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  button {
+    max-width: 20rem;
+  }
+
+  section {
+    padding-top: 0;
+  }
+}

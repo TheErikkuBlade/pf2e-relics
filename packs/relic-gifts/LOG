@@ -1,3 +1,23 @@
-2025/07/20-01:37:08.377905 e6de9679efe0 Recovering log #3147
-2025/07/20-01:37:08.386558 e6de9679efe0 Delete type=3 #3145
-2025/07/20-01:37:08.386616 e6de9679efe0 Delete type=0 #3147
+2026/07/27-21:57:47.590234 e641befdef40 Recovering log #4644
+2026/07/27-21:57:47.590259 e641befdef40 Level-0 table #4646: started
+2026/07/27-21:57:47.593697 e641befdef40 Level-0 table #4646: 558 bytes OK
+2026/07/27-21:57:47.599442 e641befdef40 Delete type=3 #4643
+2026/07/27-21:57:47.599465 e641befdef40 Delete type=0 #4644
+2026/07/27-21:59:29.920574 e63fa963ef40 Level-0 table #4649: started
+2026/07/27-21:59:29.920587 e63fa963ef40 Level-0 table #4649: 0 bytes OK
+2026/07/27-21:59:29.923412 e63fa963ef40 Delete type=0 #4647
+2026/07/27-21:59:29.930569 e63fa963ef40 Manual compaction at level-0 from '!folders!0DQ2Ow6DtXn5ZYVc' @ 72057594037927935 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at '!folders!w0xJG8MjXewW4and' @ 3068 : 1
+2026/07/27-21:59:29.930575 e63fa963ef40 Compacting 1@0 + 0@1 files
+2026/07/27-21:59:29.933022 e63fa963ef40 Generated table #4650@0: 1 keys, 527 bytes
+2026/07/27-21:59:29.933031 e63fa963ef40 Compacted 1@0 + 0@1 files => 527 bytes
+2026/07/27-21:59:29.935079 e63fa963ef40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/27-21:59:29.935131 e63fa963ef40 Delete type=2 #4646
+2026/07/27-21:59:29.935217 e63fa963ef40 Manual compaction at level-0 from '!folders!w0xJG8MjXewW4and' @ 3068 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at (end)
+2026/07/27-21:59:29.935481 e63fa963ef40 Manual compaction at level-1 from '!folders!0DQ2Ow6DtXn5ZYVc' @ 72057594037927935 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at '!folders!w0xJG8MjXewW4and' @ 3069 : 1
+2026/07/27-21:59:29.935484 e63fa963ef40 Compacting 1@1 + 1@2 files
+2026/07/27-21:59:29.940262 e63fa963ef40 Generated table #4651@1: 210 keys, 133329 bytes
+2026/07/27-21:59:29.940273 e63fa963ef40 Compacted 1@1 + 1@2 files => 133329 bytes
+2026/07/27-21:59:29.942262 e63fa963ef40 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/27-21:59:29.942318 e63fa963ef40 Delete type=2 #4650
+2026/07/27-21:59:29.942380 e63fa963ef40 Delete type=2 #4642
+2026/07/27-21:59:29.949288 e63fa963ef40 Manual compaction at level-1 from '!folders!w0xJG8MjXewW4and' @ 3069 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at (end)

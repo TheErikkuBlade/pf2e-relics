@@ -1,0 +1,24 @@
+2026/07/27-22:01:25.121432 e641bdfbef40 Recovering log #4644
+2026/07/27-22:01:25.121465 e641bdfbef40 Level-0 table #4646: started
+2026/07/27-22:01:25.125434 e641bdfbef40 Level-0 table #4646: 558 bytes OK
+2026/07/27-22:01:25.131609 e641bdfbef40 Delete type=3 #4643
+2026/07/27-22:01:25.131638 e641bdfbef40 Delete type=0 #4644
+2026/07/27-22:04:34.827501 e63fa963ef40 Level-0 table #4649: started
+2026/07/27-22:04:34.830029 e63fa963ef40 Level-0 table #4649: 2949 bytes OK
+2026/07/27-22:04:34.832063 e63fa963ef40 Delete type=0 #4647
+2026/07/27-22:04:34.837071 e63fa963ef40 Manual compaction at level-0 from '!folders!0DQ2Ow6DtXn5ZYVc' @ 72057594037927935 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at '!folders!w0xJG8MjXewW4and' @ 3068 : 1
+2026/07/27-22:04:34.837076 e63fa963ef40 Compacting 1@0 + 0@1 files
+2026/07/27-22:04:34.839613 e63fa963ef40 Generated table #4650@0: 1 keys, 527 bytes
+2026/07/27-22:04:34.839623 e63fa963ef40 Compacted 1@0 + 0@1 files => 527 bytes
+2026/07/27-22:04:34.841755 e63fa963ef40 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/07/27-22:04:34.841813 e63fa963ef40 Delete type=2 #4646
+2026/07/27-22:04:34.841912 e63fa963ef40 Manual compaction at level-0 from '!folders!w0xJG8MjXewW4and' @ 3068 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at (end)
+2026/07/27-22:04:34.844950 e63fa963ef40 Manual compaction at level-1 from '!folders!0DQ2Ow6DtXn5ZYVc' @ 72057594037927935 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at '!items!z0EqsAlU6zjB3nFv' @ 3071 : 1
+2026/07/27-22:04:34.844955 e63fa963ef40 Compacting 2@1 + 1@2 files
+2026/07/27-22:04:34.849946 e63fa963ef40 Generated table #4651@1: 210 keys, 133478 bytes
+2026/07/27-22:04:34.849956 e63fa963ef40 Compacted 2@1 + 1@2 files => 133478 bytes
+2026/07/27-22:04:34.852098 e63fa963ef40 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/27-22:04:34.852151 e63fa963ef40 Delete type=2 #4650
+2026/07/27-22:04:34.852191 e63fa963ef40 Delete type=2 #4649
+2026/07/27-22:04:34.852229 e63fa963ef40 Delete type=2 #4642
+2026/07/27-22:04:34.857754 e63fa963ef40 Manual compaction at level-1 from '!items!z0EqsAlU6zjB3nFv' @ 3071 : 1 .. '!items!zxyYagC95k4dVVeQ' @ 0 : 0; will stop at (end)
